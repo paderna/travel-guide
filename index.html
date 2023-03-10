@@ -12,14 +12,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
 </head>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@600&display=swap');
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <img src="ancient-pavilion-fill.png" src="ancient" />
-            <a class="navbar-brand" href="index.html"> TRavel Guide</a>
+            <a class="navbar-brand" href="#"> TRavel Guide</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,13 +32,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index 2.html">Hotels</a>
+                        <a class="nav-link" aria-current="page" href="#">Hotels</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index3.html">Restaurants</a>
+                        <a class="nav-link" aria-current="page" href="#">Guides</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index 4.html">Guides</a>
+                        <a class="nav-link" aria-current="page" href="#">Restaurants</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accounts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Signup</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -58,23 +75,29 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
                 <img src="batanes 3.jpg" class="d-block w-100 c-img" alt="batanes" />
-                <div class="carousel-caption top-0 mt-4 d-none d-md-block">
-                    <h1 class="mt-5 fs-3 text-uppercase">batanes</h1>
-                    <p>Experience the Tranquil Beauty </p>
+                <div class="carousel-caption top-50 mt-1 ">
+                    <h1 class="display-1 fw-bolder text-capitalize">batanes</h1>
+                    <p class="mt-5-fs3 fs-text-uppercase">Experience Tranquil Beauty</p>
+
+
                 </div>
             </div>
             <div class="carousel-item " data-bs-interval="5000">
-                <img src="wp2408755.jpg" class="d-block w-100 c-img" alt="wp2408755" />
-                <div class="carousel-caption top-0 mt-4 d-none d-md-block">
-                    <h1 class="mt-5 fs-3 text-uppercase">Manila</h1>
-                    <p>Discover the Heartbeat of the Philippines</p>
+                <img src="manila 2.jpeg" class="d-block w-100 c-img" alt="wp2408755" />
+                <div class="carousel-caption top-50 mt-1">
+                    <h1 class="display-1 fw-bolder text-capitalize">Manila</h1>
+                    <p class="mt-lg-2 fs-3text-uppercase">Discover the Heartbeat of the Philippines</p>
+
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="palawan 2.jpg" class="d-block w-100 c-img" alt="mayon" />
-                <div class="carousel-caption top-0 mt-4 d-none d-md-block">
-                    <h1 class="mt-5 fs-3 text-uppercase">Palawan</h1>
-                    <p>Discover Nature's Paradise </p>
+                <div class="carousel-caption top-50 mt-1">
+                    <h1 class="display-1 fw-bolder text-capitalize">Palawan</h1>
+                    <p class="mt-lg-2 fs-3text-uppercase">Discover Nature's Paradiseg</p>
+
+
+                    <p> </p>
                 </div>
             </div>
         </div>
@@ -87,7 +110,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
 
     <center>
         <h1>Hotels nearby</h1>
@@ -120,12 +142,14 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">offers :</h1>
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">starlight Hotel :</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <ul>
+                                        <img src="starlight.jpg" alt="fort santiago" class="img-fluid">
+
                                             <h3> ROOM AMENITIES</h3>
 
                                             <ol>Window Type AC</ol>
@@ -142,16 +166,17 @@
                                             <ol>24 Hour Reception</ol>
                                             <h3>max person </h3>
                                             <ol> 1- person only no visitors allowed</ol>
-                                            <h3>price for one room (per night)</h3>
-                                            <ol>46.47- us dollar</ol>
-                                            <ol>2580- philippine peso</ol>
-
-
 
                                             <ul></ul>
                                         </ul>
 
                                     </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
+                                    </div>
+
 
                                 </div>
                             </div>
@@ -161,7 +186,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card">
-                    <img src="belmont.jpg" class="card-img-top" alt="belmont">
+                    <img src="belmont.jpg" class="card-img-top" alt="starlight">
                     <div class="card-body">
                         <h5 class="card-title">Belmont Hotel Manila</h5>
                         <p class="card-text"> Newport City Pasay City 1309, Metro Manila, Philippines</p>
@@ -171,17 +196,19 @@
                             See more
                         </button>
 
-                        <!-- Modal1 -->
+                        <!-- Modal -->
                         <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">offers :</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Belmont Hotel</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="belmont.jpg" alt="fort santiago" class="img-fluid">
+
                                         <h3>Room Services</h3>
                                         <ol>32-inch flat-screen TV </ol>
                                         <ol>Wireless Internet access </ol>
@@ -198,8 +225,12 @@
                                         <ol>Transportation Service</ol>
                                         <h3>max person </h3>
                                         <ol> 1-4 person</ol>
-                                        <h3>price (per night) </h3>
-                                        <ol>4000-16,000-pesos</ol>
+                                
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
                                     </div>
 
 
@@ -207,7 +238,7 @@
 
                                 </div>
                             </div>
-                        </div> <br>
+                        </div>
 
                     </div>
                 </div>
@@ -215,28 +246,31 @@
             <!---third pic-->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card">
-                    <img src="city garden.jpg" class="card-img-top" alt="..." width="300">
+                    <img src="city garden.jpg" class="card-img-top" alt="starlight">
                     <div class="card-body">
                         <h5 class="card-title">City Garden Suites Manila</h5>
-                        <p class="card-text">1158 A. Mabini St. Ermita, Manila, Manila, 1000</p>
-                        <p class="card-text"> Telephone number:844-684-9427</p>
+                        <p class="card-text"> 1158 A. Mabini St. Ermita, Manila, Manila, 1000, Philippines</p>
+                        <p class="card-text">Telephone number:844-684-9427</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-info" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal2">
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal2">
                             See more
                         </button>
 
+
+
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel12">offers :</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel12">City Garden Suites Manila</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="city garden.jpg" alt="fort santiago" class="img-fluid">
+
                                         <h3>Room amenities</h3>
                                         <ol>Lcd tv </ol>
                                         <ol>cable tv channels </ol>
@@ -250,12 +284,15 @@
                                         <h3>Services</h3>
                                         <ol>swedish massage & thai massage</ol>
                                         <ol>fittness facility</ol>
-                                        <h3>max person </h3>
-                                        <ol> 1-4 person</ol>
-                                        <h3>price (per night)</h3>
-
-                                        <ol>4600-7,000-pesos</ol>
+                                        
+                                        
                                     </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
+                                    </div>
+
 
 
                                 </div>
@@ -340,6 +377,9 @@
 
                                     </div>
                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
 
                                     </div>
                                 </div>
@@ -408,8 +448,6 @@
                                             of the Philippines, and is an important resource for scholars and
                                             researchers alike.
 
-                                        <h3>Entrance Ticket </h3>
-                                        <h5>Price: 150 PHP</h5>
 
 
 
@@ -417,6 +455,11 @@
                                         </p>
                                     </div>
                                     <div class="modal-footer">
+                                        
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -473,6 +516,10 @@
 
                                     </div>
                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="sign up.html" class="btn btn-info" role="button">Book now</a>
+                                
 
                                     </div>
                                 </div>
@@ -492,35 +539,40 @@
 
     <footer class="bg-light text-center text-white">
         <!-- Grid container -->
-        <div class="container p-2 pb-0">
+        <div class="container-fluid p-2 pb-0">
             <!-- Section: Social media -->
-            <section class="mb-4">
+            <section class="mb-5">
                 <!-- Facebook -->
-                <a class="btn text-white btn-floating m-1"  href="https://web.facebook.com/?_rdc=1&_rdr" role="button">
+                <a class="btn text-white btn-floating m-1" href="https://web.facebook.com/?_rdc=1&_rdr" role="button">
                     <img src="facebook-circle-fill.png" alt="">
 
-                <!-- Twitter -->
-                <a class="btn text-white btn-floating m-1"  href="https://web.facebook.com/?_rdc=1&_rd" role="button">
-                    <img src="twitter-line.png" alt="">
+                    <!-- Twitter -->
+                    <a class="btn text-white btn-floating m-1" href="https://web.facebook.com/?_rdc=1&_rd"
+                        role="button">
+                        <img src="twitter-line.png" alt="">
 
-                        
 
-                <!-- Google-->
-                <a class="btn text-white btn-floating m-1"  href="#!" role="button">
-                    <img src="google-fill.png" alt="">
 
-                <!-- Github -->
-                <a class="btn text-white btn-floating m-1"  href="#!" role="button">
-                    <img src="github-line.png" alt="">
-                    <div class="text-center p-0" style="background-color: rgba(0, 0, 0, 0.2);">
-                        © 2023 Copyright:
-                        <a class="text-white" href="##">Maplestar</a>
-                    </div>
+                        <!-- Google -->
+                        <a class="btn text-white btn-floating m-1" href="#!" role="button">
+                            <img src="google-fill.png" alt="">
+
+                            <!-- Github -->
+                            <a class="btn text-white btn-floating m-1" href="#!" role="button">
+                                <img src="github-line.png" alt="">
+                                <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+                                    © 2023 Copyright:
+                                    <a class="text-white" href="https://web.facebook.com/?_rdc=1&_rdr">Jeff.p</a>
+                                </div>
 
             </section>
-         
+            <!-- Section: Social media -->
         </div>
-       
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+
+        <!-- Copyright -->
     </footer>
     </div>
 
